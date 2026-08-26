@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "node relay.mjs",
+    "start": "node init && node relay.mjs",
     "test": "node --test"
   },
   "engines": {

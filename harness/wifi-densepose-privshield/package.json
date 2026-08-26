@@ -1,7 +1,7 @@
 {
   "name": "wifi-densepose-privshield-harness",
   "version": "0.1.0",
-  "description": "Harness for wifi-densepose-privshield (WiFi Veil — compliant-waveform WiFi-sensing privacy shield, ADR-288/289)",
+  "description": "Harness for wifi-densepose-privshield (WiFi Veil \u2014 compliant-waveform WiFi-sensing privacy shield, ADR-288/289)",
   "license": "MIT",
   "type": "module",
   "bin": {
@@ -19,7 +19,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "vitest run",
     "init": "node ./bin/cli.js init",
     "doctor": "node ./bin/cli.js doctor",

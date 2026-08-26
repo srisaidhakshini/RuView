@@ -1,11 +1,11 @@
 {
   "name": "@ruvnet/homecore-frontend",
   "version": "0.1.0-alpha.0",
-  "description": "HOMECORE web UI — Lit + TypeScript + Vite, cognitum-v0 design system",
+  "description": "HOMECORE web UI \u2014 Lit + TypeScript + Vite, cognitum-v0 design system",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc && vite build",
     "lint": "eslint src --ext .ts",
     "test": "vitest run"
   },
