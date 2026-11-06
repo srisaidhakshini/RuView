@@ -18,7 +18,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "test": "vitest run",
     "init": "node ./bin/cli.js init",
     "doctor": "node ./bin/cli.js doctor",

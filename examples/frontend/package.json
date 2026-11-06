@@ -4,8 +4,8 @@
   "description": "HOMECORE web UI \u2014 Lit + TypeScript + Vite, cognitum-v0 design system",
   "type": "module",
   "scripts": {
-    "dev": "node init && vite",
-    "build": "node init && tsc && vite build",
+    "dev": "vite",
+    "build": "tsc && vite build",
     "lint": "eslint src --ext .ts",
     "test": "vitest run"
   },
